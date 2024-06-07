@@ -16,7 +16,7 @@ from lightgbm import LGBMRegressor
 import joblib
 
 def main():
-    st.title("CancerProVax")
+    st.title("VaxOpiML")
     text_input = st.text_input("Enter text sequence :")
     prediction_option = st.radio("Select prediction type:", ("MHC-1", "MHC-2", "BOTH"))
     if st.button("Predict"):
