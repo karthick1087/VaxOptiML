@@ -45,9 +45,9 @@ text2=['To anticipate epitopes for cancer immunotherapy, our integrated pipeline
 
 def main():
     if page == "Home":
-        text_input = st.text_input("Enter your protein sequence without identifier :").upper()
-           text_input = text_input.replace(" ", "")  # This line removes spaces from the input sequence   
-        prediction_option = st.radio("Note - Please give input protein sequence without spaces in between each amino acid seq :", ("MHC-1", "MHC-2", "BOTH"))
+        text_input = st.text_input("Enter Protein Sequence :").upper()
+        text_input = text_input.replace(" ", "")  # This line removes spaces from the input sequence
+        prediction_option = st.radio("Note- Remove the spaces from the amino acid sequnece if any:", ("MHC-1", "MHC-2", "BOTH"))
         if st.button("Predict"):
             if prediction_option == "MHC-1" and text_input:
                 progress_bar = st.progress(0)
