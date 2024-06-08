@@ -2553,8 +2553,13 @@ def main():
 
     ## Contact Information
     If you have any questions or feedback, please feel free to reach out to us:
+    - Karthick Vasudevan
     - Email: karthick.1087@gmail.com
     - Address: Institute of Bioinformatics, Bengaluru
+    - Dhanuskumar T
+    - Email: danukumar517@gmail.com
+    - Sripad Rama Hebbar
+    - Email: sripadkarthik@gmail.com 
     """)
 
     # Help page content
