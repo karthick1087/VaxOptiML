@@ -1309,7 +1309,7 @@ def main():
                     progress_bar.progress((i + 1) * 100 // len(text2))
                     status_text.text(f'**⏳ Processing: {((i + 1) * 100 // len(text2))}% ***')
                     st.write(f"[{i+1}] ",text2[i])
-                status_text.text('# 💥 **Boom!** 💥')
+                status_text.text('# **Analysis Completed!**')
 
                 protein_sequence = text_input
                 def find_epitopes(sequence, window_size=10):
