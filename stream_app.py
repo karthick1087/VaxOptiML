@@ -680,7 +680,7 @@ def main():
                 for i in range(6):
                     time.sleep(9)
                     progress_bar.progress((i + 1) * 100 // len(text1))
-                    status_text.text(f'**⏳ Countdown: {((i + 1) * 100 // len(text1))}% ***')
+                    status_text.text(f'**⏳ Processing: {((i + 1) * 100 // len(text1))}% ***')
                     st.write(f"[{i + 1}] ", text1[i])
                 status_text.text('# 💥 **Boom!** 💥')
 
@@ -1307,7 +1307,7 @@ def main():
                 for i in range(6):
                     time.sleep(9)
                     progress_bar.progress((i + 1) * 100 // len(text2))
-                    status_text.text(f'**⏳ Countdown: {((i + 1) * 100 // len(text2))}% ***')
+                    status_text.text(f'**⏳ Processing: {((i + 1) * 100 // len(text2))}% ***')
                     st.write(f"[{i+1}] ",text2[i])
                 status_text.text('# 💥 **Boom!** 💥')
 
