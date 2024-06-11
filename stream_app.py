@@ -39,7 +39,7 @@ text1=['Our integrated pipeline makes use of three models for epitope prediction
 text2=['To anticipate epitopes for cancer immunotherapy, our integrated pipeline uses three models. By employing sophisticated machine learning methods and selective datasets, we are able to accurately forecast epitopes, rank targets according to immunogenicity, and customize HLA pairing.',
      'A detailed analysis shows improved performance over existing approaches, and visual aids demonstrate our ensemble models effectiveness in accelerating epitope discovery and vaccine development for cancer immunotherapy.',
        'Peptide features will be created following the chunking of the input protein.',
-       'Peptide features will be created following the chunking of the input protein.Peptides 0 and 1 annotations will determine whether they are considered epitopes or non-epitopes.',
+       'Peptides 0 and 1 annotations will determine whether they are considered epitopes or non-epitopes.',
        'These peptides will have their antigenic scores determined.HLA peptides are going to be produced.',
        'Ultimately, the epitope nature and antigenic score will provide the most probable epitopes together with their beginning and terminating positions']
 
