@@ -18,7 +18,7 @@ import time
 
 page = st.sidebar.radio("Choose a page", ["Home", "About", "Help"])
 st.title("VaxOptiML")
-st.write("An integrated pipeline designed to enhance epitope prediction and prioritization")
+st.write("An integrated pipeline designed to enhance cancer epitope prediction and prioritization")
 st.image("logo.png", width=200)
 
 
