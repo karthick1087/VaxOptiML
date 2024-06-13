@@ -55,9 +55,9 @@ def main():
                 for i in range(6):
                     time.sleep(9)
                     progress_bar.progress((i + 1) * 100 // len(text))
-                    status_text.text(f'**⏳ Analysis Initiated: {((i + 1) * 100 // len(text))}% ***')
+                    status_text.text(f'**⏳ Processing: {((i + 1) * 100 // len(text))}% ***')
                     st.write(f"[{i + 1}] ", text[i])
-                status_text.text('# 💥 ** Analysis sucesssful - Output csv fles are loading....** 💥')
+                status_text.text('# 💥 **Analysis Completed!** 💥')
 
                 protein_sequence = text_input
                 def find_epitopes(sequence, window_size=10):
