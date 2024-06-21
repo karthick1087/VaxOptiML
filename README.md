@@ -1,7 +1,7 @@
 VaxOptiML
 
     Authors-list
-  Sripad Rama Hebbar, Dhanushkumar T, Sunila BG, Prasanna kumar selvam, Karthick Vasudevan*
+  Sripad Rama Hebbar, Dhanushkumar T, Sunila BG,  Karthick Vasudevan*
 
 
     Synopsis 
@@ -48,14 +48,7 @@ The input protein sequence features will be extracted
 
 
 
-![Screenshot 2024-05-09 143701](https://github.com/sripad2020/aaa/assets/59697056/9d0d8847-1544-4a86-aeb4-19a7ca18bb5a)
-
-This image interprets the results regarding the kolaskar score and the chuncked epitopes, probability of being epitopes (1: epitope, 
-0: non-epitope) based on the trained models (3 models has been used for being an epitope atleast 2 models should recognise them as 1)
-
-
-
 ![Screenshot 2024-05-17 094557](https://github.com/sripad2020/aaa/assets/59697056/39f8f313-ee23-44ec-a672-903600e33ffe)
 
 
-This image interprets the final result of epitope and and resultant HLA for that epitope and the score of particular epitope
+This image interprets the final result of epitope with it's K-T score along the HLA'S it binds 
